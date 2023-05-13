@@ -66,8 +66,8 @@ library.add(faTrash);
       <div className='App'>
       <header>
         <form id='to-do-form' onSubmit={this.addItem}>
-          <input type='text' placeholder='Enter Text' value={this.state.currentItem.t
-          } onChange={this.handleInput}></input>
+          <input type='text' placeholder='Enter Text' value={this.state.currentItem.text} 
+          onChange={this.handleInput}></input>
         <button type='submit'>Add</button>
         </form>
       </header>
